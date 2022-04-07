@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
               child: Column(
                 children: [
                   const Text(
-                    "   Dahulu kala ada seorang Puteri dari Kerajaan Prambanan yang bernama Roro Jongrang. Roro Jongrang merupakan seorang puteri yang sangat cantik dan sangat baik budinya. Ketika Bandung Bondowoso dari kerajaan Panggih menyerang Kerajaan Prambanan, ayah dari Roro Jongrang pun terbunuh dalam pertempuran.",
+                    "   Pada jaman dahulu kala ada seorang Puteri dari Kerajaan Prambanan yang bernama Roro Jongrang. Roro Jongrang merupakan seorang puteri yang sangat cantik dan sangat baik budinya. Ketika Bandung Bondowoso dari kerajaan Panggih menyerang Kerajaan Prambanan, ayah dari Roro Jongrang pun terbunuh dalam pertempuran.",
                     style: TextStyle(color: Colors.white),
                     textAlign: TextAlign.justify,
                   ),
@@ -59,7 +59,7 @@ class _MyAppState extends State<MyApp> {
                     textAlign: TextAlign.justify,
                   ),
                   const Text(
-                    "   Namun jin dan siluman pun tiba-tiba pergi karena mencium bau pagi yang tiba-tiba datang. Tapi ternyata bau pagi tersebut diciptakan oleh Roro Jongrang dan warga agar Bondowoso tidak berhasil membangun candi terakhir. Akhirnya, mengetahui hal tersebut, Bondowoso menjadi marah, dan mengutuk Roro Jongrang sebagai candi terakhir.",
+                    "   Namun jin dan siluman pun tiba-tiba pergi karena mencium bau pagi yang tiba-tiba datang. Namun ternyata, bau pagi tersebut diciptakan oleh Roro Jongrang dan warga agar Bondowoso tidak berhasil membangun candi terakhir. Akhirnya, mengetahui hal tersebut, Bondowoso menjadi marah, dan mengutuk Roro Jongrang menjadi candi terakhir.",
                     style: TextStyle(color: Colors.white),
                     textAlign: TextAlign.justify,
                   ),
@@ -79,7 +79,7 @@ class _MyAppState extends State<MyApp> {
                         ElevatedButton(
                           onPressed: () async {
                             await audioPlayer.play(
-                                "https://drive.google.com/u/0/uc?id=1vfWdot_UXpu9H4O9ENX2Z82gpR9wO0z1&export=download");
+                                "https://drive.google.com/u/0/uc?id=1k6i4diq7eFeLawEimqCvRxlS0WWvMJPB&export=download");
                           },
                           child: const Text("Play"),
                           style: ElevatedButton.styleFrom(
