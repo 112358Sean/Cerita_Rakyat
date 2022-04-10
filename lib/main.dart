@@ -20,9 +20,9 @@ class _MyAppState extends State<MyApp> {
 
   _MyAppState() {
     audioPlayer = AudioPlayer();
-    audioPlayer.onAudioPositionChanged.listen((Duration) {
+    audioPlayer.onAudioPositionChanged.listen((duration) {
       setState(() {
-        durasi = Duration.toString();
+        durasi = duration.toString();
       });
     });
     audioPlayer.setReleaseMode(ReleaseMode.LOOP);
@@ -47,18 +47,18 @@ class _MyAppState extends State<MyApp> {
             Container(
               margin: const EdgeInsets.all(20),
               child: Column(
-                children: [
-                  const Text(
+                children: const [
+                  Text(
                     "   Pada jaman dahulu kala ada seorang Puteri dari Kerajaan Prambanan yang bernama Roro Jongrang. Roro Jongrang merupakan seorang puteri yang sangat cantik dan sangat baik budinya. Ketika Bandung Bondowoso dari kerajaan Panggih menyerang Kerajaan Prambanan, ayah dari Roro Jongrang pun terbunuh dalam pertempuran.",
                     style: TextStyle(color: Colors.white),
                     textAlign: TextAlign.justify,
                   ),
-                  const Text(
+                  Text(
                     "   Saat Bandung Bondowoso meminta Roro Jongrang sebagai istrinya, Roro Jongrang tidak bisa menolak, hanya ada satu cara yang bisa diberikan oleh Roro Jongrang, yaitu meminta Bandung Bondowoso untuk membangun 1000 candi dalam satu malam. Melalui bantuan jin dan siluman sebagai prajuritnya, Bandung Bondowoso pun menyetujuinya.",
                     style: TextStyle(color: Colors.white),
                     textAlign: TextAlign.justify,
                   ),
-                  const Text(
+                  Text(
                     "   Namun jin dan siluman pun tiba-tiba pergi karena mencium bau pagi yang tiba-tiba datang. Namun ternyata, bau pagi tersebut diciptakan oleh Roro Jongrang dan warga agar Bondowoso tidak berhasil membangun candi terakhir. Akhirnya, mengetahui hal tersebut, Bondowoso menjadi marah, dan mengutuk Roro Jongrang menjadi candi terakhir.",
                     style: TextStyle(color: Colors.white),
                     textAlign: TextAlign.justify,
